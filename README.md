@@ -4,10 +4,6 @@
 processing java code using dynamic class loaders for hotswaping that compiles and runs in real time. My
 goal is to deliver a lean, lightweight set of Java files that implement the built in java compiler api specification for use in Java enviroments.
 
-![venn diagram](https://cloud.githubusercontent.com/assets/210413/5077572/30dfc2f0-6e6a-11e4-9723-07c918128f4f.png)
-
-For developers using AngularJS, Angular Material is the reference implementation of Google's Material Design Specification. This project implements version 1.x of Angular Material and includes a rich set of reusable, well-tested, and accessible UI components.
-
 Quick Links:
 
 *  [Topics](#topics)
