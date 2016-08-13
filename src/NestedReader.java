@@ -9,7 +9,6 @@
  Version:      =        0.001
  ==============================================================================
  */
-package cs345.repl;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Stack;
@@ -111,7 +110,7 @@ public class NestedReader
                 consume();
                 String result = buf.toString();
                 buf.setLength(0);
-                return result;      // error detected, return current buffer to JavaREPL
+                return result;      // error detected, return current buffer to Driver
             }
             break;
 

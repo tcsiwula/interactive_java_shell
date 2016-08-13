@@ -1,5 +1,3 @@
-package cs345.repl;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -58,7 +56,7 @@ public class TestREPL {
 
 	@Test
 	public void testInputOutputPair() throws IOException {
-		JavaREPL.exec(new StringReader(input));
+		Driver.exec(new StringReader(input));
 		// combine errors first then output
 		String output = stdout.toString();
 		output = output.replaceAll("> ", ""); // kill the prompt from output

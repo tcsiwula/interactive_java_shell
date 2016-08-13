@@ -1,15 +1,3 @@
-package cs345.repl;
-
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.IOException;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
-
 /**
  * =============================================================================
  * Project:      =        tcsiwula-repl
@@ -22,6 +10,18 @@ import java.util.Collections;
  * Version:      =        0.001
  * ==============================================================================
  */
+
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class SourceWriter
 {
 	ArrayList<File> files;

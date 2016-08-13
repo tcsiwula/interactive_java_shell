@@ -1,10 +1,3 @@
-package cs345.repl;
-
-import java.io.File;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.net.*;
-
 /**
  * =============================================================================
  * Project:      =        tcsiwula-repl
@@ -17,6 +10,10 @@ import java.net.*;
  * Version:      =        0.001
  * ==============================================================================
  */
+import java.io.File;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.*;
 
 public class SourceLoader extends ClassLoader
 {

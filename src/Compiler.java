@@ -1,14 +1,3 @@
-package cs345.repl;
-
-import com.sun.source.util.JavacTask;
-
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.*;
-import javax.tools.*;
-
 /**
  * =============================================================================
  * Project:      =        tcsiwula-repl
@@ -21,6 +10,14 @@ import javax.tools.*;
  * Version:      =        0.001
  * ==============================================================================
  */
+import com.sun.source.util.JavacTask;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.*;
+import javax.tools.*;
 
 public class Compiler
 {
